@@ -1,0 +1,46 @@
+{
+  "name": "scene-graph",
+  "version": "1.0.0",
+  "description": "A scene graph managment utility for web games",
+  "main": "dist/index.min.js",
+  "module": "dist/index.min.es.js",
+  "types": "dist/index.d.ts",
+  "author": "darcy.rayner@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^23.3.10",
+    "jest": "^23.6.0",
+    "ts-jest": "^23.10.5",
+    "ts-lint": "^4.5.1",
+    "typescript": "^3.2.1"
+  },
+  "scripts": {
+    "lint": "$(yarn bin)/tslint -c tsconfig.json src",
+    "test": "$(yarn bin)/jest"
+  },
+  "jest": {
+    "verbose": true,
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ],
+    "coverageReporters": [
+      "json-summary",
+      "json",
+      "lcov"
+    ],
+    "collectCoverage": true,
+    "transform": {
+      ".(ts|tsx)": "ts-jest"
+    },
+    "testRegex": "(.spec)\\.(ts|tsx)$",
+    "testPathIgnorePatterns": [
+      "\\.snap$",
+      "<rootDir>/node_modules/"
+    ]
+  },
+  "dependencies": {
+    "reflect-metadata": "^0.1.12"
+  }
+}

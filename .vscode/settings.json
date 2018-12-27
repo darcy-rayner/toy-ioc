@@ -1,0 +1,16 @@
+{
+  "[typescript]": {
+    "editor.formatOnSave": true
+  },
+  "[javascript]": {
+    "editor.formatOnSave": true
+  },
+  "[scss]": {
+    "editor.formatOnSave": true
+  },
+  "[yaml]": {
+    "editor.formatOnSave": true
+  },
+  "editor.tabSize": 2,
+  "jest.showCoverageOnLoad": true
+}
