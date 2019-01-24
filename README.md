@@ -1,6 +1,6 @@
 # Toy IOC
 
-This is a toy inversion of control container written in typescript. Read corresponding [blogpost on dev.to](https://dev.to/darcyrayner/typescript-dependency-injection-in-200-loc-12j7).
+This is a toy inversion of control container written in typescript. Read the corresponding [blogpost on dev.to](https://dev.to/darcyrayner/typescript-dependency-injection-in-200-loc-12j7).
 
 ## Testing
 
